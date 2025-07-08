@@ -1,7 +1,6 @@
 # ♟️ Chessify: Advanced Chess Engine
 
-**Chessify** is a sleek, browser-based chess AI built with **Flask**, **JavaScript**, and **`python-chess`**.  
-It features a **responsive UI**, **adjustable AI depth**, and **PGN move tracking** — delivering a gameplay experience that’s both **challenging** and **visually engaging**.
+**Chessify** is a sleek, browser-based chess AI built with **`Flask`**, **`JavaScript`**, and **`python-chess`**. It features a **responsive UI**, **adjustable AI depth**, and **PGN move tracking** -- delivering a gameplay experience that’s both **challenging** and **visually engaging**.
 
 ---
 
@@ -30,23 +29,16 @@ It features a **responsive UI**, **adjustable AI depth**, and **PGN move trackin
 
 **Chessify** is powered by a layered AI strategy that balances intelligence with performance:
 
-- 🔍 **Minimax Search**  
-  Explores game states recursively to a fixed depth, simulating optimal play for both sides.
-
-- ✂️ **Alpha-Beta Pruning**  
-  Speeds up Minimax by pruning suboptimal branches — enabling deeper, faster searches.
-
-- 📊 **Heuristic Evaluation**  
-  Each position is scored based on:
-  - Material values (e.g. queen > pawn)
-  - Positional strength via piece-square tables
-
-- ⏱️ **Iterative Deepening**  
-  Gradually increases search depth (1 → N), refining move quality under time constraints.
+| Component            | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| 🔍 Minimax Search     | Explores the game tree to a fixed depth, simulating optimal player decisions |
+| ✂️ Alpha-Beta Pruning | Prunes suboptimal branches, speeding up the minimax search dramatically       |
+| 📊 Heuristic Evaluation | Scores positions based on material value and positional strength via square tables |
+| ⏱️ Iterative Deepening | Searches from shallow to deeper depths (1 → N), refining move quality over time |
 
   ---
 
-## 🧑‍💻 Getting Started (Local Setup)
+## 💻 Getting Started (Local Setup)
 
 ### 1. Clone the Repository
 
@@ -80,6 +72,4 @@ Now visit your browser at:
 
 ## 🖼️ Results / Output
 
-```html
 <video src="static/demo.mp4" width="100%" controls></video>
-```
