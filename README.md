@@ -72,4 +72,6 @@ Now visit your browser at:
 
 ## 🖼️ Results / Output
 
-<video src="static/demo.mp4" width="100%" controls></video>
+## 🎥 Demo Video
+
+<video src="static/Demo.mp4" width="100%" controls></video>
