@@ -73,5 +73,5 @@ Now visit your browser at:
 ## 🖼️ Results / Output
 
 <p align="center">
-  <img src="static/demo.gif" alt="Chessify Demo" width="500"/>
+  <img src="static/Demo.gif" alt="Chessify Demo" width="650"/>
 </p>
