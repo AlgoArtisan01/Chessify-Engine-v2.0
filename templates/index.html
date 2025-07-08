@@ -72,11 +72,13 @@
     <div id="background-overlay"></div>
 
     <nav class="navbar navbar-fixed-top custom-navbar">
+      <!-- 🌗 Theme Toggle Button -->
+      <div id="theme-toggle" onclick="toggleTheme()">🌙</div>
+
       <div class="container-fluid">
         <h1 id="logo">Chessify : Advanced Chess Engine</h1>
       </div>
     </nav>
-    >
 
     <div class="container-fluid" style="margin-top: 100px">
       <div class="row">
@@ -134,5 +136,15 @@
         </div>
       </div>
     </div>
+    <script>
+      function toggleTheme() {
+        const body = document.body;
+        const toggle = document.getElementById("theme-toggle");
+        body.classList.toggle("dark-theme");
+        toggle.textContent = body.classList.contains("dark-theme")
+          ? "☀️"
+          : "🌙";
+      }
+    </script>
   </body>
 </html>
