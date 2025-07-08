@@ -43,7 +43,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/chessify.git
+git clone https://github.com/AlgoArtisan01/Chessify-Engine-v2.0.git
 ```
 
 ### 2. Install Dependencies
