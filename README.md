@@ -65,8 +65,8 @@ Now visit your browser at:
 
 ## 🌍 Live Demo
 
-> 🚀 Coming soon at:
-> **[https://chessify.onrender.com](https://chessify.onrender.com)**
+> 🚀 Try It Yourself:
+> **[https://chessify-engine-v2-0.onrender.com](https://chessify-engine-v2-0.onrender.com)**
 
 ---
 
