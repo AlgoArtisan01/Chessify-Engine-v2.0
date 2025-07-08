@@ -72,6 +72,6 @@ Now visit your browser at:
 
 ## 🖼️ Results / Output
 
-## 🎥 Demo Video
-
-<video src="static/Demo.mp4" width="100%" controls></video>
+<p align="center">
+  <img src="static/demo.gif" alt="Chessify Demo" width="500"/>
+</p>
