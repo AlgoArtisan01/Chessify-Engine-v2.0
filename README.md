@@ -40,26 +40,19 @@
 
 ## 💻 Getting Started (Local Setup)
 
-### 1. Clone the Repository
-
 ```bash
+# 1. Clone the Repository
+
 git clone https://github.com/AlgoArtisan01/Chessify-Engine-v2.0.git
-```
 
-### 2. Install Dependencies
+# 2. Install Dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-### 3. Run the App
+# 3. Run the App
 
-```bash
 python flask_app.py
 ```
-
-Now visit your browser at:
-➡️ **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
 
 ---
 
